@@ -123,3 +123,93 @@ nav {
     margin-left: 10px;
 }
 /*End Main Section*/
+
+
+.blog-page {
+    width: 100%;
+    height: 2470px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#ffffff;
+    display: flex;
+
+} 
+
+.blog-page-heading {
+    text-align: center;
+}
+
+.blog-page-heading h2 {
+    color: #575757;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.blog-page-heading p {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+
+.blog_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b_box{
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.b_box{
+    background-color: #fff;
+    width: 330px;
+    height: 555px;
+    margin: 15px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.b_img img {
+    height: 256px;
+    width: 300px;
+    margin-top: 15px;
+}
+.b_text h2 {
+    color: black;
+    font-size: 28px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.b_text p {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 15px;
+    justify-content: flex-start;
+}
+
+.b_btn {
+    background-color: #E02C6D;
+    padding: 9px 18px;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.b_btn:hover {
+    background-color: rgb(81, 158, 184);
+    transition: 0.2s;
+}
+
+.other_text h2{
+    color: #575757;
+    font-size: 50px;
+    margin: 10px;
+}
+
