@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');	
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Start Main Section*/
+.main {
+    background-color: #2D25A0;
+    width: 100%;
+    height: 700px;
+}
+nav {
+    width: 100%px;
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    margin-left: 120px;
+    margin-right: 124px;
+    padding-top: 42px;
+}
+.menu {
+    display: flex;
+}
+.menu li a {
+    margin: 0 10px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.active {
+    color: #fff;
+}
+.menu li a:hover {
+    background-color: rgb(81, 158, 184);
+    color: #fff;
+}
+.login-button {
+    background-color: #E02C6D;
+    ;
+    padding: 9px 18px;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 0px;
+    margin-left: 100px;
+    font-size: 16px;
+}
+.login-button:hover {
+
+    background-color: rgb(81, 158, 184);
+    transition: 0.2s;
+}
+.fas{
+    font-size: 15px;
+    letter-spacing: 10px;
+}
+.banner {
+    width: 1440px;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.name {
+    width: 485px;
+    position: relative;
+    padding-left: 156px;
+}
+.banner-title{
+    width: 550px;
+    height: 230px;
+    font-weight: bolder;
+    font-size: 64px;
+    letter-spacing: 2px;
+    line-height: 80px;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+.ba-img{
+    height: 100px;
+    width: 556px;
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 0px;
+}
+.button {
+    font-size: 16px;
+    background-color: #E02C6D;
+    ;
+    padding: 9px 18px;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.button:hover {
+
+    background-color: rgb(81, 158, 184);
+    transition: 0.2s;
+}
+.fa-arrow-right{
+    font-size: 15px;
+    margin-left: 10px;
+}
+/*End Main Section*/
